@@ -1,0 +1,30 @@
+.colorChoiceText {
+  color: red;
+}
+
+/* .comboButton {
+  display: inline-block;
+} */
+
+.combos {
+  white-space: pre;
+  /* display: inline-flex;
+  flex-direction: row; */
+}
+
+.dropdown {
+  padding: .5em;
+  margin: 0em 0em 1em 0em;
+  width: 8em;
+  font-size: 1em;
+  border-style: solid;
+  text-align: center;
+}
+
+#numPlayersLabel {
+  margin-bottom: .12em;
+}
+
+.radioButtons {
+  margin: 0em 1em 0em 0em;
+}
