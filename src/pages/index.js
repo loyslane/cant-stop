@@ -23,7 +23,7 @@ class IndexPage extends Component {
       chosenComboIndex: null,
       // column array example: 
       // index 0 = max, index 1 = winner, index 2 = temp, index 3 = blue, index 4 = green, index 5 = orange, index 6 = yellow
-      col2: [3, null, null, null, null, null, null],
+      col2: [3, ['winner', null], ['temp', null], ['blue', null], ['green', null], ['orange', null], ['yellow', null]],
       col3: [5, null, null, null, null, null, null],
       col4: [7, null, null, null, null, null, null],
       col5: [9, null, null, null, null, null, null],
