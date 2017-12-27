@@ -302,7 +302,7 @@ class IndexPage extends Component {
 
       gameBoard = 
         <div>
-          <p>This is a test</p>
+          {this.state.chosenComboIndex}
           {column2}
           {column3}
           {column4}
