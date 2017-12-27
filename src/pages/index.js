@@ -35,7 +35,7 @@ class IndexPage extends Component {
       col11: [5, null, null, null, null, null, null],
       col12: [3, null, null, null, null, null, null]
     }
-    this.handleselectedOption = this.handleselectedOption.bind(this);
+    this.handlePlayerSelectedOption = this.handlePlayerSelectedOption.bind(this);
     this.onSelect1 = this.onSelect1.bind(this);
     this.onSelect2 = this.onSelect2.bind(this);
     this.onSelect3 = this.onSelect3.bind(this);
@@ -47,7 +47,7 @@ class IndexPage extends Component {
     this.handleComboSubmit3 = this.handleComboSubmit3.bind(this);
   }
 
-  handleselectedOption(event) {
+  handlePlayerSelectedOption(event) {
     this.setState({
       selectedOption: event.target.value,
       numOfPlayers: event.target.value
@@ -210,7 +210,7 @@ class IndexPage extends Component {
             type="radio"
             value="2"
             checked={this.state.selectedOption === '2'}
-            onChange={this.handleselectedOption}
+            onChange={this.handlePlayerSelectedOption}
           />
           2
         </label>
@@ -220,7 +220,7 @@ class IndexPage extends Component {
             type="radio"
             value="3"
             checked={this.state.selectedOption === '3'}
-            onChange={this.handleselectedOption}
+            onChange={this.handlePlayerSelectedOption}
           />
           3
         </label>
@@ -230,7 +230,7 @@ class IndexPage extends Component {
             type="radio"
             value="4"
             checked={this.state.selectedOption === '4'}
-            onChange={this.handleselectedOption}
+            onChange={this.handlePlayerSelectedOption}
           />
           4
         </label>
